@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente Interativo de Classificação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card_container">
+            <div class="rating_section">
+                <div class="star_icon">
+                    <img src="Imagens/icon-star.svg" alt="Ícone de Estrela">
+                </div>
+                <h2 class="title">
+                    Como nós nos saímos?
+                </h2>
+                <p class="description">
+                    Por favor, nos informe como foi a sua solicitação de suporte. Toda a sua opinião é apreciada para nos ajudar a melhorar nossos serviços!
+                </p>
+                <div class="ratings">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                </div>
+                <button class="submit_btn">
+                    Enviar
+                </button>
+            </div>
+            <div class="thank_section hidden">
+                <img src="Imagens/illustration-thank-you.svg" alt="Ilustração de Agradecimento">
+                <div class="chip">
+                    <p>
+                        Você selecionou <span id="rate">de 5</span>
+                    </p>
+                </div>
+                <h2 class="title">
+                    Obrigado!
+                </h2>
+                <p class="description">
+                    Agradecemos o seu tempo ao dar uma avaliação. Se você precisar de mais suporte, não hesite em entrar em contato!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
